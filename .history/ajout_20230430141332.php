@@ -3,7 +3,7 @@ $title = "Ajout d'un projet";
 require_once "core/entity/header.php";
 require_once "core/entity/config.php";
 
-// Vérifie si le formulaire a été soumis 
+// Vérifie si le formulaire a été soumis
 if (isset($_POST['ajouter'])) {
 
 	// Récupère les données du formulaire
