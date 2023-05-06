@@ -53,6 +53,7 @@ require_once "core/entity/config.php";
 
     </div>
 
+
 </main>
 
 <?php

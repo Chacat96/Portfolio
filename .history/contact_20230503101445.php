@@ -25,14 +25,14 @@ require_once "core/entity/header.php";
             <form class="contact">
                 <div class="form">
                       <label id="nom">Nom:</label>
-                      <input class="input-contact" type="text" name="Nom">
+                      <input type="text" name="Nom">
                   
                       <label id="prenom">Prénom:</label>
-                      <input class="input-contact" type="text" name="prénom">
+                      <input type="text" name="prénom">
                    
                    
                       <label id="email">Email:</label>
-                      <input class="input-contact" type="email" name="email">
+                      <input type="email" name="email">
               
                         <label>Objet:</label>
                         <textarea name="message"></textarea>

@@ -172,10 +172,6 @@ header {
     resize: none;
 }
 
-.ajout_projet p {
-    color: #f1f1f2;
-}
-
 .projet input[type="submit"] {
     width: 30%;
     cursor: pointer;

@@ -172,10 +172,6 @@ header {
     resize: none;
 }
 
-.ajout_projet p {
-    color: #f1f1f2;
-}
-
 .projet input[type="submit"] {
     width: 30%;
     cursor: pointer;
@@ -555,17 +551,8 @@ hr {
 } 
 
 .bouton-contact {
-    margin-top: 20px;
+    margin-top: 10px;
     width: 60%;
-    border-radius: 10px;
-    height: 40px;
-    color: #f1f1f2;
-    font-size: 1.5rem;
-    background-color: transparent;
-    border: none;
-    border-left: 1px solid rgba(255, 255, 255, .5);
-    border-top: 1px solid rgba(255, 255, 255, .5);
-    box-shadow: 4px 4px 30px rgba(255, 255, 255, .2);
  }
  
  .contact {
@@ -611,7 +598,7 @@ justify-content: center;
     resize: none; 
 }
 
-.input-contact {
+.formulaire-contact input {
     border-radius: 10px;
     width: 100%;
     height: 40px;
@@ -766,7 +753,6 @@ justify-content: center;
     display: flex;
     align-items: center;
     flex-direction: column;
-    justify-content: flex-end;
     bottom: 0;
     width: 100%;
     height: 10vh;

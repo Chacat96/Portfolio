@@ -1,7 +1,6 @@
 <?php
-$title = "Contact";
+$title = "CV";
 require_once "core/entity/header.php";
-
 ?>
     <main>
 
@@ -17,29 +16,16 @@ require_once "core/entity/header.php";
             </div>
         </section>
 
-        <section class="contact-h1">
-            <h1>Contact</h1>
+        <section class="description">
+            <h1>Mon CV</h1>
         </section>
 
-        <section class="formulaire-contact">
-            <form class="contact">
-                <div class="form">
-                      <label id="nom">Nom:</label>
-                      <input class="input-contact" type="text" name="Nom">
-                  
-                      <label id="prenom">Prénom:</label>
-                      <input class="input-contact" type="text" name="prénom">
-                   
-                   
-                      <label id="email">Email:</label>
-                      <input class="input-contact" type="email" name="email">
-              
-                        <label>Objet:</label>
-                        <textarea name="message"></textarea>
-                   
-                        <input class="bouton-contact" type="submit" value="Envoyer">
-                    </div>
-            </form>
+        <section class="lien-CV"> 
+            <p>Téléchargez le fichier PDF ici : <a href="img/CV_2023-03-11_Charlene_CATHERIN.pdf">CV.pdf</a></p>
+        </section>
+
+        <section class="CV">
+           <img src="img/CV_2023-03-11_Charlene_CATHERIN_page-0001.jpg" alt="CV">
         </section>
     </main>
 
