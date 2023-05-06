@@ -311,21 +311,21 @@ hr {
     transform: rotateY(360deg) translateZ(250px);
 }
 
-/* .legende {
+.legende figure:nth-child(1) {
     transform: rotateY(72deg) translateZ(250px);
 }
-.legende {
+.legende figure:nth-child(2) {
     transform: rotateY(144deg) translateZ(250px);
 }
-.legende {
+.legende figure:nth-child(3) {
     transform: rotateY(216deg) translateZ(250px);
 }
-.legende {
+.legende figure:nth-child(4) {
     transform: rotateY(288deg) translateZ(250px);
 }
-.legende {
+.legende figure:nth-child(5) {
     transform: rotateY(360deg) translateZ(250px);
-} */
+}
 
 .content-carrousel-mobile figure:nth-child(1) {
     transform: rotateY(72deg) translateZ(100px);
