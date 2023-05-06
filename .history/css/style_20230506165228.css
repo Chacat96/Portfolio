@@ -245,9 +245,10 @@ hr {
 /*taille et perspective des images*/
 .content {
     margin: auto;
-    width: 160px;
+    width: 190px;
     perspective: 1000px;
     position: relative;
+    /* padding-top: 80px; */
 }
 
 /*animation et effet 3d du carrousel */
@@ -296,19 +297,19 @@ hr {
 
 /*positionne et place les images*/
 .content-carrousel figure:nth-child(1) {
-    transform: rotateY(72deg) translateZ(250px);
+    transform: rotateY(72deg) translateZ(300px);
 }
 .content-carrousel figure:nth-child(2) {
-    transform: rotateY(144deg) translateZ(250px);
+    transform: rotateY(144deg) translateZ(300px);
 }
 .content-carrousel figure:nth-child(3) {
-    transform: rotateY(216deg) translateZ(250px);
+    transform: rotateY(216deg) translateZ(300px);
 }
 .content-carrousel figure:nth-child(4) {
-    transform: rotateY(288deg) translateZ(250px);
+    transform: rotateY(288deg) translateZ(300px);
 }
 .content-carrousel figure:nth-child(5) {
-    transform: rotateY(360deg) translateZ(250px);
+    transform: rotateY(360deg) translateZ(300px);
 }
 
 .content-carrousel-mobile figure:nth-child(1) {
@@ -338,6 +339,7 @@ hr {
     transition: all 300ms;
     width: 100%;
     height: 100%;
+    object-fit: cover;
 }
 
 .content-carrousel-mobile img {
@@ -367,7 +369,7 @@ hr {
 }
 
 .legende{
-    font-size: 1rem;
+    font-size: 1.5rem;
     color: #f1f1f2;
     margin-top: -30px;
     text-align: center;
@@ -903,6 +905,10 @@ justify-content: center;
 
     .legende {
         font-size: 1rem;
+    }
+
+    .legende a {
+        text-decoration: none;
     }
 
     #phrase-accueil .nom-accueil {
