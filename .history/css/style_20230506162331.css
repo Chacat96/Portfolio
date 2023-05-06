@@ -33,6 +33,10 @@ header {
     padding-bottom: 0;
 }
 
+.connexion a:hover {
+    border-bottom: #a1d6e2 2px solid;
+    }
+
 .connexion {
     display: flex;
     align-content: center;

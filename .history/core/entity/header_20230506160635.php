@@ -24,7 +24,7 @@
         </div>
 
         <div class="connexion">
-             <a href="connexion.php"><i class="fa-solid fa-user" style="color: #ffffff;"></i></a>
+         <a href="connexion.php"><i class="fa-solid fa-user" style="color: #ffffff;"></i></a>
         </div>
         
     </header>

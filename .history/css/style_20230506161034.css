@@ -33,9 +33,20 @@ header {
     padding-bottom: 0;
 }
 
+.connexion a:hover {
+    border-bottom: #a1d6e2 2px solid;
+    }
+
 .connexion {
     display: flex;
-    align-content: center;
+    text-align: right;
+}
+
+.connexion-mobile {
+    display: flex;
+    align-items: center;
+    padding-right: 20px;
+    font-size: 1.5em;
 }
 
 .section-connexion {
