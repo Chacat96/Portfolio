@@ -6,9 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="js/app.js">
     <!--Titre de chaques pages-->
     <title>Charlène Catherin - <?=$title ?></title>
     <link rel="icon" href="img/moianime.jpg">
+
 </head>
 <body>
 

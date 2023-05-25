@@ -17,7 +17,7 @@ require_once "core/entity/header.php";
         </section>
 
         <section class="description">
-            <h1>Ma description</h1>
+            <h1>Qui suis-je ?</h1>
         </section>
 
         <section class="paragraphe-description">
